@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page</title>
+</head>
+<body>
+
+<header>
+    <h1>Atilla Kerim Sarılmış</h1>
+    <p>Management Information Systems Student</p>
+</header>
+
+<nav>
+    <a href="#about">About</a> |
+    <a href="#courses">Courses</a> |
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+<section id="about">
+    <h2>About Me</h2>
+    <img src="images/profile.jpg" alt="Profile Picture" width="200" height="200">
+    <p>I am a Management Information Systems student. I am interested in
+    programming, data analysis and business intelligence.</p>
+</section>
+
+<section id="courses">
+    <h2>My Courses</h2>
+    <table>
+        <tr>
+            <th>Course Name</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Programming</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Database Management</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Management Information Systems</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>Discrete Mathematics</td>
+            <td>B</td>
+        </tr>
+    </table>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="topic">Topic:</label>
+        <select id="topic" name="topic">
+            <option value="general">General</option>
+            <option value="courses">Courses</option>
+            <option value="projects">Projects</option>
+        </select>
+        <br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40"></textarea>
+        <br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Atilla Kerim Sarılmış</p>
+</footer>
+
+</body>
+</html>
